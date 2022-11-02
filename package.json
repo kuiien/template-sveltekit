@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "@monkgooi/template-sveltekit",
+  "description": "Starter template for building application with SvelteKit, TailwindCSS",
+  "version": "0.1.0",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "eslint --fix",
+    "dev": "vite dev",
+    "build": "vite build",
+    "package": "svelte-kit package",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:monkgooi/template-sveltekit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/monkgooi/template-sveltekit/issues"
+  },
+  "author": "MonkGooi",
+  "license": "MIT",
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "1.0.0-next.86",
+    "@sveltejs/kit": "1.0.0-next.531",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "postcss": "^8.4.18",
+    "postcss-load-config": "4.0.1",
+    "svelte": "3.52.0",
+    "svelte-preprocess": "^4.10.7",
+    "tailwindcss": "^3.2.1",
+    "vite": "^3.2.2"
+  }
+}
